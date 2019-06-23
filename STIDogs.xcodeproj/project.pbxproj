@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73CE49BA98E1589FDE18ADBE /* Pods_STIDogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14912AEB0583BD8D05422E68 /* Pods_STIDogs.framework */; };
+		D57CC43322B71CE500D0D0CC /* DogBreedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57CC43222B71CE500D0D0CC /* DogBreedCollectionViewController.swift */; };
+		D57CC43522B7228F00D0D0CC /* DogBreedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57CC43422B7228F00D0D0CC /* DogBreedCollectionViewCell.swift */; };
 		D5C3D4CC229E15020055E8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3D4CB229E15020055E8A2 /* AppDelegate.swift */; };
-		D5C3D4CE229E15020055E8A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3D4CD229E15020055E8A2 /* ViewController.swift */; };
-		D5C3D4D1229E15020055E8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C3D4CF229E15020055E8A2 /* Main.storyboard */; };
+		D5C3D4CE229E15020055E8A2 /* RandomDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3D4CD229E15020055E8A2 /* RandomDogViewController.swift */; };
 		D5C3D4D3229E15040055E8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C3D4D2229E15040055E8A2 /* Assets.xcassets */; };
 		D5C3D4D6229E15040055E8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C3D4D4229E15040055E8A2 /* LaunchScreen.storyboard */; };
+		D5C7C60322B6B560007DDA25 /* DogsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C7C60222B6B560007DDA25 /* DogsTableViewCell.swift */; };
+		D5ED221622B5DC60005AB0C6 /* DogTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED221522B5DC60005AB0C6 /* DogTabsViewController.swift */; };
+		D5ED221822B5DCB5005AB0C6 /* DogsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED221722B5DCB5005AB0C6 /* DogsTableViewController.swift */; };
+		D5ED221A22B5DCD9005AB0C6 /* DogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED221922B5DCD9005AB0C6 /* DogsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14912AEB0583BD8D05422E68 /* Pods_STIDogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STIDogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3D85CB2A0C24DFF329913B /* Pods-STIDogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STIDogs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STIDogs/Pods-STIDogs.debug.xcconfig"; sourceTree = "<group>"; };
+		6B006D130FE7551C2D1B7185 /* Pods-STIDogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STIDogs.release.xcconfig"; path = "Pods/Target Support Files/Pods-STIDogs/Pods-STIDogs.release.xcconfig"; sourceTree = "<group>"; };
+		D57CC43222B71CE500D0D0CC /* DogBreedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedCollectionViewController.swift; sourceTree = "<group>"; };
+		D57CC43422B7228F00D0D0CC /* DogBreedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5C3D4C8229E15020055E8A2 /* STIDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STIDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C3D4CB229E15020055E8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5C3D4CD229E15020055E8A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5C3D4D0229E15020055E8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5C3D4CD229E15020055E8A2 /* RandomDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogViewController.swift; sourceTree = "<group>"; };
 		D5C3D4D2229E15040055E8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5C3D4D5229E15040055E8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C3D4D7229E15040055E8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C7C60222B6B560007DDA25 /* DogsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsTableViewCell.swift; sourceTree = "<group>"; };
+		D5ED221522B5DC60005AB0C6 /* DogTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTabsViewController.swift; sourceTree = "<group>"; };
+		D5ED221722B5DCB5005AB0C6 /* DogsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsTableViewController.swift; sourceTree = "<group>"; };
+		D5ED221922B5DCD9005AB0C6 /* DogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CE49BA98E1589FDE18ADBE /* Pods_STIDogs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AE990A6CD839A941E0C411D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D85CB2A0C24DFF329913B /* Pods-STIDogs.debug.xcconfig */,
+				6B006D130FE7551C2D1B7185 /* Pods-STIDogs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCE10B3B097A6AF8BBAA7DCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14912AEB0583BD8D05422E68 /* Pods_STIDogs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5C3D4BF229E15020055E8A2 = {
 			isa = PBXGroup;
 			children = (
 				D5C3D4CA229E15020055E8A2 /* STIDogs */,
 				D5C3D4C9229E15020055E8A2 /* Products */,
+				1AE990A6CD839A941E0C411D /* Pods */,
+				CCE10B3B097A6AF8BBAA7DCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +88,17 @@
 		D5C3D4CA229E15020055E8A2 /* STIDogs */ = {
 			isa = PBXGroup;
 			children = (
+				D5ED221922B5DCD9005AB0C6 /* DogsViewController.swift */,
+				D5ED221722B5DCB5005AB0C6 /* DogsTableViewController.swift */,
 				D5C3D4CB229E15020055E8A2 /* AppDelegate.swift */,
-				D5C3D4CD229E15020055E8A2 /* ViewController.swift */,
-				D5C3D4CF229E15020055E8A2 /* Main.storyboard */,
+				D5C3D4CD229E15020055E8A2 /* RandomDogViewController.swift */,
 				D5C3D4D2229E15040055E8A2 /* Assets.xcassets */,
 				D5C3D4D4229E15040055E8A2 /* LaunchScreen.storyboard */,
 				D5C3D4D7229E15040055E8A2 /* Info.plist */,
+				D5ED221522B5DC60005AB0C6 /* DogTabsViewController.swift */,
+				D5C7C60222B6B560007DDA25 /* DogsTableViewCell.swift */,
+				D57CC43222B71CE500D0D0CC /* DogBreedCollectionViewController.swift */,
+				D57CC43422B7228F00D0D0CC /* DogBreedCollectionViewCell.swift */,
 			);
 			path = STIDogs;
 			sourceTree = "<group>";
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5C3D4DA229E15040055E8A2 /* Build configuration list for PBXNativeTarget "STIDogs" */;
 			buildPhases = (
+				039A4FA17461FE727B7E30A0 /* [CP] Check Pods Manifest.lock */,
 				D5C3D4C4229E15020055E8A2 /* Sources */,
 				D5C3D4C5229E15020055E8A2 /* Frameworks */,
 				D5C3D4C6229E15020055E8A2 /* Resources */,
+				F440B850A94AD2094A5FFFC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +165,85 @@
 			files = (
 				D5C3D4D6229E15040055E8A2 /* LaunchScreen.storyboard in Resources */,
 				D5C3D4D3229E15040055E8A2 /* Assets.xcassets in Resources */,
-				D5C3D4D1229E15020055E8A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039A4FA17461FE727B7E30A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STIDogs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F440B850A94AD2094A5FFFC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-STIDogs/Pods-STIDogs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STIDogs/Pods-STIDogs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5C3D4C4229E15020055E8A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C3D4CE229E15020055E8A2 /* ViewController.swift in Sources */,
+				D5C7C60322B6B560007DDA25 /* DogsTableViewCell.swift in Sources */,
+				D5ED221822B5DCB5005AB0C6 /* DogsTableViewController.swift in Sources */,
+				D5C3D4CE229E15020055E8A2 /* RandomDogViewController.swift in Sources */,
+				D5ED221A22B5DCD9005AB0C6 /* DogsViewController.swift in Sources */,
+				D57CC43522B7228F00D0D0CC /* DogBreedCollectionViewCell.swift in Sources */,
 				D5C3D4CC229E15020055E8A2 /* AppDelegate.swift in Sources */,
+				D5ED221622B5DC60005AB0C6 /* DogTabsViewController.swift in Sources */,
+				D57CC43322B71CE500D0D0CC /* DogBreedCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5C3D4CF229E15020055E8A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5C3D4D0229E15020055E8A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D5C3D4D4229E15040055E8A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,17 +373,20 @@
 		};
 		D5C3D4DB229E15040055E8A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3D85CB2A0C24DFF329913B /* Pods-STIDogs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7D952R639;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VFN9EK8VGJ;
 				INFOPLIST_FILE = STIDogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.dasu.hari.STIDogs;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.dasu.hari.STI-Dogs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = kingHenryWIld;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +394,20 @@
 		};
 		D5C3D4DC229E15040055E8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B006D130FE7551C2D1B7185 /* Pods-STIDogs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7D952R639;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VFN9EK8VGJ;
 				INFOPLIST_FILE = STIDogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.dasu.hari.STIDogs;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.dasu.hari.STI-Dogs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = kingHenryWIld;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

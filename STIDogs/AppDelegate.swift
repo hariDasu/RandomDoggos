@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Initalise the window
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        guard let window = self.window else { fatalError("No Window") }
+        // Set the (main entry point) root view controller of the app
+        window.rootViewController = DogTabsViewController()
+        // Make it visible
+        window.makeKeyAndVisible()
         return true
     }
 
